@@ -1,0 +1,212 @@
+{
+  "proyecto": {
+    "nombre": "Construcción de Filtro Francés y Ronda de Coronación — Control de Inundación",
+    "ubicacion": "Predio Rural — Municipio del Oriente Antioqueño",
+    "fecha_programada": "Noviembre 2026",
+    "ingeniero": "Ing. Oscar Fernando Valencia",
+    "aiu_administracion_pct": 10.0,
+    "aiu_imprevistos_pct": 5.0,
+    "aiu_utilidad_pct": 5.0
+  },
+  "geometria": {
+    "L_filtro_ml": 30.0,
+    "area_preliminares_m2": 20.0,
+    "ancho_zanja_filtro_m": 0.4,
+    "prof_zanja_filtro_m": 0.8,
+    "altura_grava_filtro_m": 0.6,
+    "altura_cierre_filtro_m": 0.2,
+    "L_ronda_ml": 40.0,
+    "b_menor_exc_ronda_m": 0.45,
+    "b_mayor_exc_ronda_m": 0.65,
+    "h_exc_ronda_m": 0.4,
+    "talud_int_ronda_m": 0.41,
+    "base_int_ronda_m": 0.3,
+    "espesor_concreto_ronda_m": 0.075
+  },
+  "insumos": {
+    "2": {
+      "codigo": 2,
+      "nombre": "Pisón manual apisonador de grava y zanja",
+      "unidad": "día",
+      "precio": 25000.0,
+      "precio_base": 25000.0,
+      "categoria": "Equipos"
+    },
+    "3": {
+      "codigo": 3,
+      "nombre": "Equipo básico de nivelación y pendientes",
+      "unidad": "día",
+      "precio": 15000.0,
+      "precio_base": 15000.0,
+      "categoria": "Equipos"
+    },
+    "4": {
+      "codigo": 4,
+      "nombre": "Carretilla tipo buggi para acarreo",
+      "unidad": "día",
+      "precio": 18000.0,
+      "precio_base": 18000.0,
+      "categoria": "Equipos"
+    },
+    "5": {
+      "codigo": 5,
+      "nombre": "Obrero / Ayudante de construcción",
+      "unidad": "día",
+      "precio": 90000.0,
+      "precio_base": 90000.0,
+      "categoria": "Mano de obra"
+    },
+    "6": {
+      "codigo": 6,
+      "nombre": "Oficial de obra (trazo, niveles, geotextil y tubería)",
+      "unidad": "día",
+      "precio": 120000.0,
+      "precio_base": 120000.0,
+      "categoria": "Mano de obra"
+    },
+    "7": {
+      "codigo": 7,
+      "nombre": "Flete de grava triturada en volqueta hasta predio",
+      "unidad": "m³",
+      "precio": 50000.0,
+      "precio_base": 50000.0,
+      "categoria": "Transporte"
+    },
+    "8": {
+      "codigo": 8,
+      "nombre": "Acarreo interno manual de grava a zanja",
+      "unidad": "m³",
+      "precio": 16000.0,
+      "precio_base": 16000.0,
+      "categoria": "Transporte"
+    },
+    "9": {
+      "codigo": 9,
+      "nombre": "Flete proporcional materiales livianos (tubería y geotextil)",
+      "unidad": "ml",
+      "precio": 1900.0,
+      "precio_base": 1900.0,
+      "categoria": "Transporte"
+    },
+    "10": {
+      "codigo": 10,
+      "nombre": "Geotextil no tejido NT 1600 / NT 1800 (polipropileno)",
+      "unidad": "m²",
+      "precio": 5800.0,
+      "precio_base": 5800.0,
+      "categoria": "Materiales"
+    },
+    "11": {
+      "codigo": 11,
+      "nombre": "Tubería corrugada de drenaje perforada 4\" (HDPE/PVC)",
+      "unidad": "m",
+      "precio": 15000.0,
+      "precio_base": 15000.0,
+      "categoria": "Materiales"
+    },
+    "12": {
+      "codigo": 12,
+      "nombre": "Grava filtrante triturada limpia (3/4\" a 1-1/2\")",
+      "unidad": "m³",
+      "precio": 250000.0,
+      "precio_base": 250000.0,
+      "categoria": "Materiales"
+    },
+    "13": {
+      "codigo": 13,
+      "nombre": "Arena gruesa limpia de lecho / asiento de filtro",
+      "unidad": "m³",
+      "precio": 210000.0,
+      "precio_base": 210000.0,
+      "categoria": "Materiales"
+    },
+    "14": {
+      "codigo": 14,
+      "nombre": "Accesorios de conexión 4\" (uniones, codos, terminal)",
+      "unidad": "und",
+      "precio": 12500.0,
+      "precio_base": 12500.0,
+      "categoria": "Materiales"
+    },
+    "15": {
+      "codigo": 15,
+      "nombre": "Alambre negro de amarre No. 18 / grapas de sujeción",
+      "unidad": "kg",
+      "precio": 8500.0,
+      "precio_base": 8500.0,
+      "categoria": "Materiales"
+    },
+    "16": {
+      "codigo": 16,
+      "nombre": "Cinta de señalización de peligro (rollo 500 m)",
+      "unidad": "und",
+      "precio": 30000.0,
+      "precio_base": 30000.0,
+      "categoria": "Materiales"
+    },
+    "17": {
+      "codigo": 17,
+      "nombre": "Cemento gris tipo Portland (saco 50 kg)",
+      "unidad": "bulto",
+      "precio": 36000.0,
+      "precio_base": 36000.0,
+      "categoria": "Materiales"
+    },
+    "18": {
+      "codigo": 18,
+      "nombre": "Arena lavada para concreto/mortero",
+      "unidad": "m³",
+      "precio": 150000.0,
+      "precio_base": 150000.0,
+      "categoria": "Materiales"
+    },
+    "19": {
+      "codigo": 19,
+      "nombre": "Triturado 1/2\" para concreto",
+      "unidad": "m³",
+      "precio": 200000.0,
+      "precio_base": 200000.0,
+      "categoria": "Materiales"
+    },
+    "20": {
+      "codigo": 20,
+      "nombre": "Malla electrosoldada M-084 / Q-106 (alambre 4.0 mm)",
+      "unidad": "m²",
+      "precio": 9500.0,
+      "precio_base": 9500.0,
+      "categoria": "Materiales"
+    },
+    "21": {
+      "codigo": 21,
+      "nombre": "Aditivo impermeabilizante integral líquido (Sika 1)",
+      "unidad": "kg",
+      "precio": 9500.0,
+      "precio_base": 9500.0,
+      "categoria": "Materiales"
+    },
+    "22": {
+      "codigo": 22,
+      "nombre": "Sellante elástico para juntas de dilatación",
+      "unidad": "cartucho",
+      "precio": 28000.0,
+      "precio_base": 28000.0,
+      "categoria": "Materiales"
+    },
+    "23": {
+      "codigo": 23,
+      "nombre": "Membrana / aditivo de curado para concreto",
+      "unidad": "galón",
+      "precio": 32000.0,
+      "precio_base": 32000.0,
+      "categoria": "Materiales"
+    },
+    "24": {
+      "codigo": 24,
+      "nombre": "Mezcladora de concreto (trompo 1 bulto)",
+      "unidad": "día",
+      "precio": 65000.0,
+      "precio_base": 65000.0,
+      "categoria": "Equipos"
+    }
+  }
+}
